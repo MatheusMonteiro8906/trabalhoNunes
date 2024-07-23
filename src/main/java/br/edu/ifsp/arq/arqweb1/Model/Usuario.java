@@ -2,10 +2,7 @@ package br.edu.ifsp.arq.arqweb1.Model;
 
 import java.io.Serializable;
 
-
 // Classe Usuario para implementação da Lista
-
-
 
 public class Usuario implements Serializable{
 	private static final long serialVersionUID = 1L;
@@ -15,11 +12,6 @@ public class Usuario implements Serializable{
 	private String email;
 	private int id;
 	
-	
-	
-	
-	
-
 	public Usuario() {
 		this.id = ++contador;
 	}
@@ -30,8 +22,6 @@ public class Usuario implements Serializable{
 		this.senha = senha;
 		this.email = email;
 	}
-	
-
 
 	public int getId() {
 		return id;
@@ -59,7 +49,4 @@ public class Usuario implements Serializable{
 	public void setSenha(String senha) {
 		this.senha = senha;
 	}
-	
-	
-	
 }
